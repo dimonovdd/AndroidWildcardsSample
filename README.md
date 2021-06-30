@@ -38,3 +38,10 @@ It doesn't depend on a IDE it doesn't work correctly with MSBuild on Terminal
     <Compile Include="$(AndroidResgenFile)" />
 </ItemGroup> 
 ```
+
+This will work correctly if you add this line to csproj ([@mattleibow](https://github.com/mattleibow) thank you for this information):
+```xml
+<AndroidUseIntermediateDesignerFile>true</AndroidUseIntermediateDesignerFile>
+```
+
+
