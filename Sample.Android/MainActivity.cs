@@ -11,12 +11,13 @@ namespace Sample.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            ToolbarResource = Resource.Layout.Toolbar;
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
-
-
+            
+            
             var info1 = TestPlugin1.Info.Get();
             var info2 = TestPlugin2.Info.Get();
         }
