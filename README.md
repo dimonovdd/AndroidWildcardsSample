@@ -1,4 +1,4 @@
-This sample demonstrates two problems related to the csproj file on Android.
+This sample demonstrates two problems related to the csproj file on Android. [Problem link](https://developercommunity.visualstudio.com/t/Problem-with-wildcard-in-Android-csproj/1464993)
 
 ## [First (ProjectReference with Wildcard)](https://github.com/dimonovdd/ProjectReferenceWildcardsSample/blob/51d43422e79354acf82db8e09c84377f091579f7/Sample.Android/Sample.Android.csproj#L51)
 
